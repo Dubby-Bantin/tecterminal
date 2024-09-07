@@ -9,26 +9,30 @@ const Solutions = () => {
     const solutions = [
         {
             title: "Quality Solutions",
-            description: "We prioritize quality in every aspect of our IT solutions, ensuring that our clients receive the best possible outcomes."
+            description: "We prioritize quality in every aspect of our IT solutions, ensuring that our clients receive the best possible outcomes.",
+            delay: 200,
         },
         {
             title: "On-Time Delivery",
-            description: "We understand the importance of timely delivery and work diligently to meet our clients' deadlines."
+            description: "We understand the importance of timely delivery and work diligently to meet our clients' deadlines.",
+            delay: 300,
         },
         {
             title: "Global Partnerships",
-            description: "Our strong partnerships with global IT leaders like Microsoft, Cisco, and Oracle enable us to provide cutting-edge solutions."
+            description: "Our strong partnerships with global IT leaders like Microsoft, Cisco, and Oracle enable us to provide cutting-edge solutions.",
+            delay: 400,
         },
         {
             title: "Customer Satisfaction",
-            description: "We are committed to ensuring our clients' satisfaction by delivering exceptional IT services and support."
+            description: "We are committed to ensuring our clients' satisfaction by delivering exceptional IT services and support.",
+            delay: 500,
         }
     ];
 
     return (
         <section className=''>
             <div className='px-10 relative z-10'>
-                <div className="flex flex-col gap-3">
+                <div className="flex flex-col gap-3" data-aos="fade-right" data-aos-duration="800">
                     <span className='text-lg text-primaryBlue font-semibold'>Innovative</span>
                     <h2 className='text-4xl font-bold'>Experience the Power of Cutting-Edge IT Solutions</h2>
                     <p className='text-gray-500'>At CPMS, we offer competitive pricing, on-time delivery, and strong partnerships with global IT leaders to ensure your business stays ahead of the curve. Our innovative solutions empower you to achieve your goals.</p>
@@ -40,7 +44,7 @@ const Solutions = () => {
 
                 <div className="flex mt-10 gap-6">
                     {solutions.map(solution => (
-                        <div className="flex flex-col border-[1px] shadow p-8 rounded w-full gap-3 bg-white" key={solution.title}>
+                        <div className="flex flex-col border-[1px] shadow p-8 rounded w-full gap-3 bg-white" key={solution.title} data-aos="flip-up" data-aos-duration="700" data-aos-delay={solution.delay}>
                             <FaCube />
                             <h3 className='text-lg font-semibold'>{solution.title}</h3>
                             <p className='text-gray-500'>{solution.description}</p>
