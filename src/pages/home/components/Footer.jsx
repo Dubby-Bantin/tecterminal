@@ -91,7 +91,7 @@ const Footer = () => {
             </div>
 
             <div className="border-t-[1.5px] border-t-[#00000035] mt-12 py-4 flex justify-between text-sm">
-                <p>© 2024 Relume. All rights reserved.</p>
+                <p>© 2024 Tecterminal. All rights reserved.</p>
             </div>
         </footer>
     )
