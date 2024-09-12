@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import logo from "../assets/images/logo.png";
 import ExploreBtn from './buttons/ExploreBtn';
 import { Link } from 'react-router-dom';
@@ -9,6 +9,14 @@ const MobileNavbar = () => {
 
     const [menuActive, setMenuActive] = useState(false);
     const [isFirstRender, setIsFirstRender] = useState(true);
+
+    useEffect(() => {
+        if (menuActive) {
+            document.body.classList.add('no-scroll');
+        } else {
+            document.body.classList.remove('no-scroll');
+        }
+    }, [menuActive]);
 
     const routes = [
         {
