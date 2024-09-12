@@ -30,7 +30,7 @@ const Clients = () => {
 
     const clients = [nai, flag, ndc, servi, palla, unicef, sfh, eedc, coatarm, picture_3, picture_4, picture_5, picture_6, picture_7, picture_8, picture_9, picture_10, nti, picture_10, picture_11, picture_12, picture_13, picture_14, picture_15, picture_16, picture_17, picture_19,]
     return (
-        <section className="px-10 py-12 bg-gray-100">
+        <section className="lg:px-10 px-6 py-12 bg-gray-100">
             <p className="text-center font-semibold text-gray-600 mb-6">Trusted by top companies worldwide</p>
 
             <div className="flex flex-wrap items-center gap-4 mt-2 justify-center">

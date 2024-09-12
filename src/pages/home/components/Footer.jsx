@@ -8,8 +8,8 @@ const Footer = () => {
     const quickLinks_2 = ["Link Six", "Link Seven", "Link Eight", "Link Nine", "Link ten"];
 
     return (
-        <footer className='px-10 py-12'>
-            <div className="flex justify-between">
+        <footer className='lg:px-10 px-6 py-12'>
+            <div className="flex justify-between lg:flex-row flex-col gap-6">
                 <div className="flex flex-col gap-6">
                     <img src={logo} alt="logo" className='w-[155px]'/>
                     <div className="flex flex-col">
@@ -32,7 +32,7 @@ const Footer = () => {
                     </div>
                 </div>
 
-                <div className="flex gap-6">
+                <div className="flex gap-6 flex-col lg:flex-row">
                     <div className="flex flex-col gap-3 font-medium">
                         {quickLinks_1.map(link => (
                             <Link key={link}>{link}</Link>
@@ -49,11 +49,6 @@ const Footer = () => {
 
             <div className="border-t-[1.5px] border-t-[#00000035] mt-12 py-4 flex justify-between text-sm">
                 <p>© 2024 Relume. All rights reserved.</p>
-                <nav className="flex gap-4 underline text-gray-600">
-                    <Link to="#">Privacy Policy</Link>
-                    <Link to="#">Terms of Service</Link>
-                    <Link to="#">Cookies Settings</Link>
-                </nav>
             </div>
         </footer>
     )

@@ -31,10 +31,10 @@ const Solutions = () => {
 
     return (
         <section className=''>
-            <div className='px-10 relative z-10'>
+            <div className='lg:px-10 px-6 relative z-10'>
                 <div className="flex flex-col gap-3" data-aos="fade-right" data-aos-duration="800">
                     <span className='text-lg text-primaryBlue font-semibold'>Innovative</span>
-                    <h2 className='text-4xl font-bold'>Experience the Power of Cutting-Edge IT Solutions</h2>
+                    <h2 className='lg:text-4xl text-3xl font-bold'>Experience the Power of Cutting-Edge IT Solutions</h2>
                     <p className='text-gray-500'>At CPMS, we offer competitive pricing, on-time delivery, and strong partnerships with global IT leaders to ensure your business stays ahead of the curve. Our innovative solutions empower you to achieve your goals.</p>
                     <div className="flex gap-4">
                         <LearnMoreBtn/>
@@ -42,7 +42,7 @@ const Solutions = () => {
                     </div>
                 </div>
 
-                <div className="flex mt-10 gap-6">
+                <div className="flex lg:flex-nowrap flex-wrap mt-10 gap-6">
                     {solutions.map(solution => (
                         <div className="flex flex-col border-[1px] shadow p-8 rounded w-full gap-3 bg-white" key={solution.title} data-aos="flip-up" data-aos-duration="700" data-aos-delay={solution.delay}>
                             <FaCube />
@@ -53,7 +53,7 @@ const Solutions = () => {
                 </div>
             </div>
 
-            <img src={image_5} alt="image_5" className='w-full h-[7rem] object-cover opacity-10 -mt-4'/>
+            <img src={image_5} alt="image_5" className='w-full h-[7rem] object-cover opacity-10 -mt-4 '/>
         </section>
     )
 }

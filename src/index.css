@@ -5,3 +5,70 @@
 *{
   font-family: "Poppins", sans-serif;
 }
+
+/* Media Query for Mobile (md) screens */
+@media (min-width: 768px){
+  .animateNavbar {
+    animation: none;
+  }
+  .unAnimate {
+    animation: none;
+    transform: translateY(0);
+    display: none;
+    background: #000;
+  }
+}
+
+@media (max-width: 920px){
+  .animateNavbar{
+      display: flex;
+      animation-name: fadeIn;
+      animation-duration: .3s;
+      transform: translateY(0);
+  }
+
+  .unAnimate{
+      display: flex;
+      /* background: blue; */
+      animation-name: fadeOut;
+      animation-duration: .3s;
+      transform: translateY(-100vw);
+      display: none;
+  }
+}
+
+@media (max-width: 640px){
+  .animateNavbar{
+      display: flex;
+      animation-name: fadeIn;
+      animation-duration: .3s;
+      transform: translateY(0);
+      left: 0;
+      flex-direction: column;
+      top: 0;
+      height: 100vh;
+  }
+
+  .unAnimate{
+      display: flex;
+      animation-name: fadeOut;
+      animation-duration: .3s;
+      transform: translateY(-100vh);
+  }
+}
+
+@keyframes  fadeIn{
+  from{
+      transform: translateY(-50px);
+  }to{
+      transform: translateY(0);
+  }
+}
+
+@keyframes  fadeOut{
+  from{
+      transform: translateY(0);
+  }to{
+      transform: translateY(-100vh);
+  }
+}
