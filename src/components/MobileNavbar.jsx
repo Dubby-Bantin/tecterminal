@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import logo from "../assets/images/logo.png";
+import logo from "../assets/images/Asset 24.svg";
 import ExploreBtn from './buttons/ExploreBtn';
 import { Link } from 'react-router-dom';
 import { FaBars } from 'react-icons/fa';

@@ -10,14 +10,14 @@ const Reviews = () => {
             id: 1,
             name: "Louis Evra",
             title: "CEO, ABC Company",
-            statement: "Our experience with CPMS has been exceptional. They delivered high quality IT solutions on time and within budget.",
+            statement: "Our experience with Tecterminal has been exceptional. They delivered high quality IT solutions on time and within budget.",
             image: user_1
         },
         {
             id: 2,
             name: "John Doe",
             title: "CTO, XYZ Company",
-            statement: "I highly recommend CPMS for their exceptional IT solutions and outstanding customer support.",
+            statement: "I highly recommend Tecterminal for their exceptional IT solutions and outstanding customer support.",
             image: user_2
         }
     ];

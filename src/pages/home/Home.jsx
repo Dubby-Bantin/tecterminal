@@ -27,8 +27,8 @@ const Home = () => {
             <div className='absolute h-full w-full top-0' style={{ background: 'linear-gradient(90deg, rgba(10, 12, 46, 0.98) 41.06%, rgba(10, 12, 46, 0.15) 100%)' }}></div>
             
             <div data-aos="fade-right" data-aos-duration="1000" className="flex flex-col gap-4 absolute top-0 text-white h-full justify-center lg:px-10 px-6">
-                <h1 className='font-bold lg:text-6xl text-3xl lg:w-[50%] lg:leading-[4rem]'>Welcome to CPMS Your IT Solutions <span className='text-primaryYellow'>Partner</span></h1>
-                <p className='lg:w-[40%] w-[80%] leading-[1.5rem] text-gray-300 lg:text-base text-sm'>At CPMS, we provide comprehensive IT services to help businesses thrive in the digital age. Our expert team is dedicated to delivering innovative solutions that drive growth and enhance efficiency.</p>
+                <h1 className='font-bold lg:text-6xl text-3xl lg:w-[60%] lg:leading-[4rem]'>Welcome to Tecterminal, Your IT Solutions <span className='text-primaryYellow'>Partner</span></h1>
+                <p className='lg:w-[40%] w-[80%] leading-[1.5rem] text-gray-300 lg:text-base text-sm'>At Tecterminal, we provide comprehensive IT services to help businesses thrive in the digital age. Our expert team is dedicated to delivering innovative solutions that drive growth and enhance efficiency.</p>
                 <div className="flex lg:gap-4 gap-3">
                     <ExploreBtn/>
                     <LearnMoreBtn/>
@@ -47,7 +47,7 @@ const Home = () => {
                 </div>
 
                 <div className='lg:w-[50%] w-[100%]' data-aos="fade-up" data-aos-duration="500">
-                    <p className='text-primaryGray'>At CPMS, we prioritize quality and security in delivering innovative IT solutions to our clients. With our expertise and cutting-edge technology, we ensure that your business is protected and empowered to thrive in the digital age.</p>
+                    <p className='text-primaryGray'>At Tecterminal, we prioritize quality and security in delivering innovative IT solutions to our clients. With our expertise and cutting-edge technology, we ensure that your business is protected and empowered to thrive in the digital age.</p>
                     <div className="flex my-8 gap-4 flex-wrap lg:flex-nowrap">
                         <div className=""  data-aos="fade-up" data-aos-duration="500">
                             <div className='w-[38px] h-[38px] bg-primaryBlue2 text-primaryBlue text-xl flex items-center justify-center rounded-lg'>
@@ -86,8 +86,8 @@ const Home = () => {
             <img src={image_3} alt="image_3" className='lg:h-[10rem] h-[4rem] object-cover w-full lg:opacity-10 opacity-20 object-top'/>
             <div className="text-center lg:px-[15rem] px-6 bg-[#ffffffe3] lg:rounded-[100%] lg:-mt-16 -mt-4" data-aos="fade-up">
                 <span className='text-lg text-primaryBlue font-semibold'>Transforming IT Solutions</span>
-                <h2 className='lg:text-5xl text-3xl font-bold lg:my-4 my-2'>Enhance Your IT Infrastructure with CPMS</h2>
-                <p className='text-gray-500'>At CPMS, we offer a comprehensive range of IT services to help businesses optimize their operations, improve security, and drive growth. Our team of experts is dedicated to delivering innovative solutions that align with your unique needs and goals.</p>
+                <h2 className='lg:text-5xl text-3xl font-bold lg:my-4 my-2'>Enhance Your IT Infrastructure with Tecterminal</h2>
+                <p className='text-gray-500'>At Tecterminal, we offer a comprehensive range of IT services to help businesses optimize their operations, improve security, and drive growth. Our team of experts is dedicated to delivering innovative solutions that align with your unique needs and goals.</p>
 
             </div>
 

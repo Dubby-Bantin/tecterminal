@@ -35,7 +35,7 @@ const Solutions = () => {
                 <div className="flex flex-col gap-3" data-aos="fade-right" data-aos-duration="800">
                     <span className='text-lg text-primaryBlue font-semibold'>Innovative</span>
                     <h2 className='lg:text-4xl text-3xl font-bold'>Experience the Power of Cutting-Edge IT Solutions</h2>
-                    <p className='text-gray-500'>At CPMS, we offer competitive pricing, on-time delivery, and strong partnerships with global IT leaders to ensure your business stays ahead of the curve. Our innovative solutions empower you to achieve your goals.</p>
+                    <p className='text-gray-500'>At Tecterminal, we offer competitive pricing, on-time delivery, and strong partnerships with global IT leaders to ensure your business stays ahead of the curve. Our innovative solutions empower you to achieve your goals.</p>
                     <div className="flex gap-4">
                         <LearnMoreBtn/>
                         <ContactBtn/>
