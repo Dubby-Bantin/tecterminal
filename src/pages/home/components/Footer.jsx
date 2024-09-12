@@ -6,12 +6,12 @@ import { LuDot, LuInstagram } from 'react-icons/lu';
 
 const Footer = () => {
     const quickLinks_1 = [
-        {
-            title: "APTECH ENUGU",
-            link: "https://www.instagram.com/aptechenugucenter/",
-            address: "50 Zik Ave, Achara, Enugu 400105, Enugu",
-            location: "https://maps.app.goo.gl/L2yKARvYFTVBKX3F6"
-        }, 
+        // {
+        //     title: "APTECH ENUGU",
+        //     link: "https://www.instagram.com/aptechenugucenter/",
+        //     address: "50 Zik Ave, Achara, Enugu 400105, Enugu",
+        //     location: "https://maps.app.goo.gl/L2yKARvYFTVBKX3F6"
+        // }, 
 
         {
             title: "APTECH KUBWA",
@@ -20,12 +20,12 @@ const Footer = () => {
             location: "https://maps.app.goo.gl/R7BmW9WP7xXRPE5p7"
         },
 
-        {
-            title: "APTECH OWERRI",
-            link: "https://www.instagram.com/aptech.owerri/",
-            address: "57 Okigwe Rd, opposite government secondary school, Owerri 460222",
-            location: "https://maps.app.goo.gl/feLnHoUqCj4TYXgJ8"
-        },
+        // {
+        //     title: "APTECH OWERRI",
+        //     link: "https://www.instagram.com/aptech.owerri/",
+        //     address: "57 Okigwe Rd, opposite government secondary school, Owerri 460222",
+        //     location: "https://maps.app.goo.gl/feLnHoUqCj4TYXgJ8"
+        // },
 
         {
             title: "APTECH ONITSHA",
@@ -34,12 +34,12 @@ const Footer = () => {
             location: "https://maps.app.goo.gl/e4JhtcPmhWGV7o7z7"
         },
 
-        {
-            title: "APTECH UMUAHIA",
-            link: "https://www.instagram.com/aptechumuahia/",
-            address: "2 Umuwaya Rd, Umuahia, 440236, Abia",
-            location: "https://maps.app.goo.gl/PzkLg4HYgzzuwDS89"
-        },
+        // {
+        //     title: "APTECH UMUAHIA",
+        //     link: "https://www.instagram.com/aptechumuahia/",
+        //     address: "2 Umuwaya Rd, Umuahia, 440236, Abia",
+        //     location: "https://maps.app.goo.gl/PzkLg4HYgzzuwDS89"
+        // },
     ];
     const quickLinks_2 = ["Link Six", "Link Seven", "Link Eight", "Link Nine", "Link ten"];
 
@@ -59,7 +59,7 @@ const Footer = () => {
                             <Link to="tel:+2348033384978" className='underline'>0803 338 4978</Link>,
                             <Link to="tel:+2349038624006" className='underline'>0903 862 4006</Link>
                         </div>
-                        <Link to="malito:info@relume.io" className='underline'>email@gmail.com</Link>
+                        <Link to="malito:info@tecterminal.com" className='underline'>info@tecterminal.com</Link>
                     </div>
 
                     <div className="flex gap-3 text-xl">
