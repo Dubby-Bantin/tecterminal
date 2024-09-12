@@ -73,7 +73,7 @@ const Footer = () => {
 
                 <div className="flex flex-col gap-3 font-medium">
                     {quickLinks_1.map(link => (
-                        <div className="">
+                        <div className="" key={link.title}>
                             <p className='text-lg font-semibold'>{link.title}</p>
                             <div className="flex gap-1 text-gray-500 underline mt-1">
                                 <FaLocationDot className='mt-[.25rem] text-gray-400'/>
