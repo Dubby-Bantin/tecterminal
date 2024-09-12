@@ -39,8 +39,8 @@ const MobileNavbar = () => {
     }
 
     return (
-        <div className='lg:hidden block'>
-            <div className="bg-[#0A0C2E] sticky top-0 flex justify-between items-center z-50 px-6 py-5 border-b-[1px] border-[#163681]">
+        <div className='lg:hidden block sticky top-0 z-50'>
+            <div className="sticky bg-[#0A0C2E] top-0 flex justify-between items-center z-50 px-6 py-5 border-b-[1px] border-[#163681]">
                 <img src={logo} alt="logo" className='lg:w-[120px] w-[98px]'/>
 
                 {menuActive ? <LiaTimesSolid onClick={handleMenuClick} className='text-white text-xl lg:hidden block'/> : <FaBars onClick={handleMenuClick}  className='text-white text-xl lg:hidden block'/>}
