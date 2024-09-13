@@ -1,8 +1,8 @@
 import React from 'react'
 import logo from "../assets/images/Asset 24.svg";
 import ExploreBtn from './buttons/ExploreBtn';
-import { Link } from 'react-router-dom';
 import MobileNavbar from './MobileNavbar';
+import { Link } from 'react-scroll';
 
 const Navbar = () => {
 
@@ -12,18 +12,18 @@ const Navbar = () => {
             route: "solutions"
         },
         {
-            label: "Web Services",
-            route: "web-services"
+            label: "Partners",
+            route: "partnership"
         },
         {
             label: "Business Solutions",
             route: "business-solutions"
         },
-        {
-            label: "More",
-            route: "business-solutions",
-            subRoutes:[]
-        },
+        // {
+        //     label: "More",
+        //     route: "business-solutions",
+        //     subRoutes:[]
+        // },
     ]
 
     return (
@@ -33,9 +33,7 @@ const Navbar = () => {
 
                 <nav className='flex items-center gap-6 text-sm'>
                     {routes.map(route => (
-                        <Link to={route.route} key={route.label} className='text-gray-100'>
-                            {route.label}
-                        </Link>
+                        <Link key={route.label} to={route.route}  spy={true}  smooth={true}  offset={10}  duration={500}  className='text-gray-100 cursor-pointer' >{route.label}</Link>
                     ))}
 
                     <ExploreBtn/>

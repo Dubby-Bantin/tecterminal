@@ -30,7 +30,7 @@ const Solutions = () => {
     ];
 
     return (
-        <section className=''>
+        <section className='' id="business-solutions">
             <div className='lg:px-10 px-6 relative z-10'>
                 <div className="flex flex-col gap-3" data-aos="fade-right" data-aos-duration="800">
                     <span className='text-lg text-primaryBlue font-semibold'>Innovative</span>

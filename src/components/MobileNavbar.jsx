@@ -24,14 +24,14 @@ const MobileNavbar = () => {
             route: "solutions"
         },
         {
-            label: "Web Services",
-            route: "web-services"
+            label: "Partners",
+            route: "partnership"
         },
         {
             label: "Business Solutions",
             route: "business-solutions"
-        }
-    ];
+        },
+    ]
 
     const handleMenuClick = () => {
         setMenuActive(!menuActive);
@@ -48,9 +48,7 @@ const MobileNavbar = () => {
 
             <nav className={`${menuActive ? "flex animateNavbar" : isFirstRender ? "hidden" : "unAnimate"} mt-[2rem] lg:h-auto py-16 px-6 lg:px-none z-20 gap-14 flex lg:flex-row flex-col lg:w-auto w-full  lg:items-center lg:gap-6 text-sm lg:static absolute lg:bg-none bg-[#0A0C2E] left-0 lg:left-none top-0 lg:top-none`}>
                     {routes.map(route => (
-                        <Link to={route.route} key={route.label} className='text-gray-100'>
-                            {route.label}
-                        </Link>
+                        <Link key={route.label} to={route.route}  spy={true}  smooth={true}  offset={10}  duration={500}  className='text-gray-100 cursor-pointer' >{route.label}</Link>
                     ))}
 
                     <ExploreBtn/>

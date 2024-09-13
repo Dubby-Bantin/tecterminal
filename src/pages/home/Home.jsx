@@ -82,7 +82,7 @@ const Home = () => {
         </section>
         
         {/* Infrastructure Section */}
-        <section>
+        <section id='solutions'>
             <img src={image_3} alt="image_3" className='lg:h-[10rem] h-[4rem] object-cover w-full lg:opacity-10 opacity-20 object-top'/>
             <div className="text-center lg:px-[15rem] px-6 bg-[#ffffffe3] lg:rounded-[100%] lg:-mt-16 -mt-4" data-aos="fade-up">
                 <span className='text-lg text-primaryBlue font-semibold'>Transforming IT Solutions</span>
