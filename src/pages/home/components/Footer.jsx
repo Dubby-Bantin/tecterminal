@@ -77,7 +77,7 @@ const Footer = () => {
                             <p className='text-lg font-semibold'>{link.title}</p>
                             <div className="flex gap-1 text-gray-500 underline mt-1">
                                 <FaLocationDot className='mt-[.25rem] text-gray-400'/>
-                                <Link to={link.link} key={link.title}>{link.address}</Link>
+                                <Link to={link.location} key={link.title}>{link.address}</Link>
                             </div>
 
                             <div className="flex gap-1 text-gray-500 underline">
