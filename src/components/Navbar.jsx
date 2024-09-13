@@ -33,7 +33,7 @@ const Navbar = () => {
 
                 <nav className='flex items-center gap-6 text-sm'>
                     {routes.map(route => (
-                        <Link key={route.label} to={route.route}  spy={true}  smooth={true}  offset={10}  duration={500}  className='text-gray-100 cursor-pointer' >{route.label}</Link>
+                        <Link key={route.label} to={route.route} smooth={true}  offset={10}  duration={500}  className='text-gray-100 cursor-pointer' >{route.label}</Link>
                     ))}
 
                     <ExploreBtn/>

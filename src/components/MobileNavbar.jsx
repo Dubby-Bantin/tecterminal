@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react'
 import logo from "../assets/images/Asset 24.svg";
 import ExploreBtn from './buttons/ExploreBtn';
-import { Link } from 'react-router-dom';
 import { FaBars } from 'react-icons/fa';
 import { LiaTimesSolid } from 'react-icons/lia';
+import { Link } from 'react-scroll';
 
 const MobileNavbar = () => {
 
@@ -48,7 +48,7 @@ const MobileNavbar = () => {
 
             <nav className={`${menuActive ? "flex animateNavbar" : isFirstRender ? "hidden" : "unAnimate"} mt-[2rem] lg:h-auto py-16 px-6 lg:px-none z-20 gap-14 flex lg:flex-row flex-col lg:w-auto w-full  lg:items-center lg:gap-6 text-sm lg:static absolute lg:bg-none bg-[#0A0C2E] left-0 lg:left-none top-0 lg:top-none`}>
                     {routes.map(route => (
-                        <Link key={route.label} to={route.route}  spy={true}  smooth={true}  offset={10}  duration={500}  className='text-gray-100 cursor-pointer' >{route.label}</Link>
+                        <Link onClick={() => setMenuActive(false)} key={route.label} to={route.route} smooth="true" offset={10} duration={500}  className='text-gray-100 cursor-pointer' >{route.label}</Link>
                     ))}
 
                     <ExploreBtn/>
