@@ -29,25 +29,34 @@ const Contact = () => {
         <h1 className="font-semibold text-3xl">
           WE ARE HERE FOR YOUR 24/7 SUPPORT
         </h1>
-        <div className="flex flex-wrap justify-center gap-10 py-10">
-          <SupportBox
+        <div className="flex items-center justify-center gap-10 py-10">
+          {/* <SupportBox
             title="Help Centre"
             body="Access detailed guides, tutorials, and help articles in 20+ languages to solve issues quickly."
             cta="Go to Help Centre"
             Icon={FaCircleQuestion}
-          />
+          /> */}
+          <p>
+            &quot; Techterminal is a technology company with its core focus on
+            information and technology solutions and deployment, with a growing
+            clientele base ranging from government parastatals, corporate
+            organizations, the Oil and Gas sector, Small & Medium Scale
+            Enterprise (SME), Retail Outlets of Computers & IT equipment for all
+            and sundry. &quot;
+          </p>
           <SupportBox
             title="Live Support"
             body="Our team is available 24/7 via live chat and email. Get a fast response anytime."
             cta="Get Support"
             Icon={RiQuestionnaireFill}
           />
-          <SupportBox
-            title="Hire a Techterminal Expert"
-            body="Need help setting up a Techterminal website? Hire a Techterminal Pro for custom setup."
-            cta="Hire a Techterminal Expert"
-            Icon={FaUserAlt}
-          />
+          <p>
+            &quot;We are committed to meeting the information technology needs
+            of our clients by providing first-class and leading-edge technology
+            that differentiates us from others. Our business paradigm begins
+            with the analysis of the client’s existing business processes, to
+            bring the most efficient workflow solutions.&quot;
+          </p>
         </div>
       </div>
 

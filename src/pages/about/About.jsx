@@ -7,7 +7,7 @@ const About = () => {
   return (
     <section>
       {/* Header Section with Background Image */}
-      <div className="relative w-full h-[20rem] bg-slate-400 mb-10">
+      <div className="relative w-full h-[30rem] bg-slate-400 mb-10">
         <img
           src={bgImage}
           alt="Background"
@@ -23,6 +23,19 @@ const About = () => {
         <h1 className="absolute top-14 left-8 lg:left-14 font-bold text-white text-3xl lg:text-5xl lg:leading-[4rem]">
           ABOUT US
         </h1>
+        <p className="absolute top-36 left-8 lg:left-14 text-white w-1/2">
+          Our Business is about Technology Delivery and Training. Techterminal
+          is one the biggest franchises of Aptech Computer Education in Nigeria
+          which serves as the training aim of Techterminal. having its centers
+          in different parts of Nigeria. Aptech is a Global Career Education
+          Company with a presence across 40+ countries in 5 continents, is
+          playing a key role in helping individuals, organizations and nations
+          adapt to the changing requirements of a knowledge-driven world. Aptech
+          commenced its business with IT education & training business in 1986
+          and has trained over 6.8 million students – globally. Aptech is listed
+          on the Bombay Stock Exchange (Code: 532475) and National Stock
+          Exchange (Code: APTECTH) based in Mumbai,India.
+        </p>
       </div>
 
       <hr />
@@ -30,7 +43,7 @@ const About = () => {
       {/* Welcome Section */}
       <div className="p-5">
         <h1 className="font-semibold text-3xl lg:text-5xl lg:leading-[4rem] mb-6 text-center lg:text-left sm:ml-16">
-          WELCOME TO MASTER STUDY
+          MESSAGE FROM THE CEO
         </h1>
 
         {/* Main Content Section */}
@@ -70,7 +83,7 @@ const About = () => {
               Africa.
             </p>
             <p>
-              &quot;I wanted to bridge the skills gap in West Africa by
+              &quot;I want to bridge the skills gap in West Africa by
               providing comprehensive IT training that meets the demands of a
               rapidly evolving industry. I believe that technology has the power
               to unlock economic opportunities and transform lives.&quot;
