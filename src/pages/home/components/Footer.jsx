@@ -1,8 +1,8 @@
-import React from 'react'
+// import React from 'react'
 import logo from "../../../assets/images/Asset 22.svg";
-import { FaFacebook, FaInstagram, FaLinkedin, FaLocationDot, FaXTwitter, FaYoutube } from 'react-icons/fa6';
+import { FaFacebook, FaInstagram,  FaLocationDot,   } from 'react-icons/fa6';
 import { Link } from 'react-router-dom';
-import { LuDot, LuInstagram } from 'react-icons/lu';
+import { LuInstagram } from 'react-icons/lu';
 
 const Footer = () => {
     const quickLinks_1 = [
@@ -41,7 +41,7 @@ const Footer = () => {
         //     location: "https://maps.app.goo.gl/PzkLg4HYgzzuwDS89"
         // },
     ];
-    const quickLinks_2 = ["Link Six", "Link Seven", "Link Eight", "Link Nine", "Link ten"];
+    // const quickLinks_2 = ["Link Six", "Link Seven", "Link Eight", "Link Nine", "Link ten"];
 
     return (
         <footer className='lg:px-10 px-6 py-12'>
@@ -65,9 +65,9 @@ const Footer = () => {
                     <div className="flex gap-3 text-xl">
                         <FaFacebook />
                         <FaInstagram />
-                        <FaXTwitter />
+                        {/* <FaXTwitter />
                         <FaLinkedin />
-                        <FaYoutube />
+                        <FaYoutube /> */}
                     </div>
                 </div>
 

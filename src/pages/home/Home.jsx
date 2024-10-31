@@ -1,21 +1,22 @@
-import React from "react";
-import Navbar from "../../components/Navbar";
+// import React from "react";
+// import Navbar from "../../components/Navbar";
 import bgImage from "../../assets/images/image-1.png";
-import ExploreBtn from "../../components/buttons/ExploreBtn";
-import LearnMoreBtn from "../../components/buttons/LearnMoreBtn";
+// import ExploreBtn from "../../components/buttons/ExploreBtn";
+// import LearnMoreBtn from "././../components/buttons/LearnMoreBtn";
 import { FaCube, FaGear } from "react-icons/fa6";
 import dots from "../../assets/images/dotted_circle.jpg";
-import image_2 from "../../assets/images/image-2.png";
+// import image_2 from "../../assets/images/image-2.png";
 import image_3 from "../../assets/images/image-3.png";
 import image_4 from "../../assets/images/image-4.png";
 import ContactBtn from "../../components/buttons/ContactBtn";
 import Solutions from "./components/Solutions";
 import PastData from "./components/PastData";
 import Clients from "./Clients";
-import Reviews from "./components/Reviews";
-import Subscription from "./components/Subscription";
+// import Reviews from "./components/Reviews";
+// import Subscription from "./components/Subscription";
 import Footer from "./components/Footer";
-
+import photo2 from "../../assets/images/Rectangle 185.png";
+import photo3 from "../../assets/images/Rectangle 186.png";
 const Home = () => {
   return (
     <>
@@ -44,10 +45,10 @@ const Home = () => {
             to delivering innovative solutions that drive growth and enhance
             efficiency.
           </p>
-          <div className="flex lg:gap-4 gap-3">
+          {/* <div className="flex lg:gap-4 gap-3">
             <ExploreBtn />
             <LearnMoreBtn />
-          </div>
+          </div> */}
         </div>
       </section>
       {/* Commitment Section */}
@@ -107,7 +108,7 @@ const Home = () => {
             </div>
 
             <div className="flex gap-4">
-              <LearnMoreBtn />
+              {/* <LearnMoreBtn /> */}
               <ContactBtn />
             </div>
           </div>
@@ -115,17 +116,39 @@ const Home = () => {
       </section>
 
       {/* Big Image section */}
-      <section className="lg:h-[80vh] h-[30vh] bg-primaryBlue2 lg:mt-[8rem] mt-4 flex justify-center">
-        <div
-          style={{ background: `url(${image_2})`, backgroundSize: "cover" }}
-          className="w-[90%] rounded-2xl lg:h-[90vh] h-[30vh] lg:mt-[-8rem] -mt-8 overflow-hidden"
-          data-aos="fade-up"
-          data-aos-duration="500"
-        >
-          *{" "}
-          <div className="h-full w-full bg-[#00000040] absolute top-0 rounded-lg"></div>
+      {/* Mission Section */}
+      <div className="flex flex-col lg:flex-row items-center justify-center gap-10 text-center mb-5 py-10">
+        <div className="lg:w-1/2">
+          <h1 className="font-semibold text-3xl lg:leading-[4rem]">MISSION</h1>
+          <p className="px-4 lg:px-0">
+            Provide the citizens with IT Training Solutions in the contemporary
+            Information and Communication Technologies at “value for money”
+            prices so that Nigeria progresses rapidly to emerge at par with the
+            developed economies of the world.
+          </p>
         </div>
-      </section>
+        <img
+          src={photo2}
+          alt="Mission Illustration"
+          className="w-1/2 lg:w-auto object-cover rounded-md"
+        />
+      </div>
+
+      {/* Vision Section */}
+      <div className="flex flex-col lg:flex-row items-center justify-center gap-10 text-center mb-5 py-10">
+        <img
+          src={photo3}
+          alt="Vision Illustration"
+          className="w-1/2 lg:w-auto object-cover rounded-md"
+        />
+        <div className="lg:w-1/2">
+          <h1 className="font-semibold text-3xl lg:leading-[4rem]">VISION</h1>
+          <p className="px-4 lg:px-0">
+            To be the preferred brand for IT Training Solutions and services and
+            provide “value for money” to the customers.
+          </p>
+        </div>
+      </div>
 
       {/* Infrastructure Section */}
       <section id="solutions">
@@ -220,8 +243,8 @@ const Home = () => {
       <Solutions />
       <PastData />
       <Clients />
-      <Reviews />
-      <Subscription />
+      {/* <Reviews /> */}
+      {/* <Subscription /> */}
       <Footer />
     </>
   );

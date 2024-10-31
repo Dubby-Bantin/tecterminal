@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import logo from "../assets/images/Asset 24.svg";
-import ExploreBtn from "./buttons/ExploreBtn";
+// import ExploreBtn from "./buttons/ExploreBtn";
 import { FaBars } from "react-icons/fa";
 import { LiaTimesSolid } from "react-icons/lia";
 import { Link } from "react-scroll";
@@ -27,8 +27,8 @@ const MobileNavbar = () => {
       route: "contact",
     },
     {
-      label: "Business Solutions",
-      route: "business-solutions",
+      label: "Services",
+      route: "services",
     },
   ];
 
@@ -68,7 +68,7 @@ const MobileNavbar = () => {
           <Link
             onClick={() => setMenuActive(false)}
             key={route.label}
-            // to={route.route}
+            to={route.route}
             href={route.route}
             smooth="true"
             offset={10}
@@ -79,7 +79,7 @@ const MobileNavbar = () => {
           </Link>
         ))}
 
-        <ExploreBtn />
+        {/* <ExploreBtn /> */}
       </nav>
     </div>
   );

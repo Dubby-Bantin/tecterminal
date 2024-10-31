@@ -1,8 +1,8 @@
-import React from 'react';
+// import React from 'react';
 import { useInView } from 'react-intersection-observer';
 import CountUp from 'react-countup';
 import image_6 from "../../../assets/images/image-6.png";
-import LearnMoreBtn from '../../../components/buttons/LearnMoreBtn';
+// import LearnMoreBtn from '../../../components/buttons/LearnMoreBtn';
 import ContactBtn from '../../../components/buttons/ContactBtn';
 
 const PastData = () => {
@@ -23,7 +23,7 @@ const PastData = () => {
           <div className="lg:w-[50%] w-full">
             <p className='text-gray-300'>Tecterminal is a leading Information Technology Services and Consultancy firm in Nigeria, providing innovative IT solutions to various sectors. With a focus on quality, on-time delivery, and competitive pricing, we are committed to enhancing customer relationships and showcasing our technical expertise.</p>
             <div className="flex mt-6 gap-4">
-              <LearnMoreBtn style="text-white border-white"/>
+              {/* <LearnMoreBtn style="text-white border-white"/> */}
               <ContactBtn style="text-white"/>
             </div>
           </div>
