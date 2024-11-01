@@ -49,7 +49,7 @@ const Services = () => {
         </p>
       </div>
       <div className="flex sm:flex-row flex-col items-center justify-center">
-        <div className="p-5 sm:ml-16 mb-20">
+        <div className="p-5 sm:ml-16 sm:mb-20 sm:text-left text-center">
           <h1 className="font-semibold text-3xl lg:text-4xl lg:leading-[4rem] mb-6 text-center lg:text-left text-primaryBlue">
             Enterprise Infrastructure
           </h1>
@@ -69,7 +69,7 @@ const Services = () => {
             </li>
             <li>Small business and start-up computing need</li>
           </ul>
-          <div className="flex items-center">
+          <div className="flex sm:flex-row flex-col items-center">
             <div className="flex flex-col items-center w-96 text-center">
               <MdOutlineShowChart className="text-2xl mb-3" />
               <p className="text-primaryBlue text-xl mb-3">
@@ -98,7 +98,7 @@ const Services = () => {
       </div>
 
       <div className="bg-primaryBlue/10 p-5 py-20 mb-10">
-        <div className="flex items-center justify-center gap-40">
+        <div className="flex sm:flex-row flex-col sm:text-left text-center items-center justify-center gap-40">
           <div>
             <img src={photo5} alt="" className="h-[15rem]" />
           </div>
@@ -126,7 +126,7 @@ const Services = () => {
       </div>
 
       <div className="p-5 mb-10 flex items-start justify-center gap-40 ">
-        <div className="w-[70rem] flex items-center">
+        <div className="w-[70rem] flex sm:flex-row flex-col items-center">
           <div className="relative -top-16">
             <h1 className="font-semibold text-3xl lg:text-4xl lg:leading-[4rem] mb-6 text-center lg:text-left text-primaryBlue">
               Data Center Solution
@@ -146,7 +146,7 @@ const Services = () => {
         </div>
       </div>
       <div className="p-5 py-20 mb-10 flex justify-center gap-40 bg-primaryBlue/10">
-        <div className="w-[70rem] flex items-start justify-center gap-20">
+        <div className="w-[70rem] flex items-start sm:flex-row flex-col justify-center gap-20">
           <img src={photo7} alt="" className="h-[15rem]" />
           <div className="relative -top-25">
             <h1 className="font-semibold text-3xl lg:text-4xl lg:leading-[4rem] mb-6 text-center lg:text-left text-primaryBlue">
@@ -175,7 +175,7 @@ const Services = () => {
       </div>
 
       <div className="p-5 mb-10 flex items-start justify-center gap-40 ">
-        <div className="w-[70rem] flex items-center">
+        <div className="w-[70rem] flex sm:flex-row flex-col items-center">
           <div className="relative">
             <h1 className="font-semibold text-3xl lg:text-4xl lg:leading-[4rem] mb-6 text-center lg:text-left text-primaryBlue">
               Cloud Computing
@@ -196,11 +196,11 @@ const Services = () => {
               on the actual usage of the customer.
             </p>
           </div>
-          <img src={photo8} alt="" className="h-[20rem]" />
+          <img src={photo8} alt="" className="h-[20rem] object-cover" />
         </div>
       </div>
       <div className="p-5 mb-40 flex items-start justify-center gap-40">
-        <div className="w-[75rem] flex items-center gap-10">
+        <div className="w-[75rem] flex sm:flex-row flex-col items-center gap-10">
           <div className="relative">
             <h1 className="font-semibold text-3xl lg:text-4xl lg:leading-[4rem] mb-6 text-center lg:text-left text-primaryBlue">
               Business Ready Solutions
@@ -238,7 +238,7 @@ const Services = () => {
         </div>
       </div>
       <div className="p-5 mb-40 flex items-start justify-center gap-40 bg-primaryBlue/10">
-        <div className="w-[75rem] flex items-center gap-10">
+        <div className="w-[75rem] flex sm:flex-row flex-col items-center gap-10">
           <img src={photo10} alt="" className="h-[20rem]" />
           <div className="relative">
             <h1 className="font-semibold text-3xl lg:text-4xl lg:leading-[4rem] mb-6 text-center lg:text-left text-primaryBlue">
@@ -246,7 +246,7 @@ const Services = () => {
             </h1>
             <div className="w-28 border border-primaryBlue mb-5"></div>
 
-            <div className="grid grid-cols-3 gap-20">
+            <div className="grid grid-cols-3 gap-20 ">
               <div className="flex flex-col justify-center items-center text-center text-lg font-medium">
                 <LiaToolsSolid className="text-4xl mb-7 text-primaryBlue" />
                 Server Management, Monitoring and Security
@@ -280,7 +280,7 @@ const Services = () => {
         </div>
       </div>
       <div className="p-5 py-20 mb-10 flex justify-center gap-40">
-        <div className="w-[70rem] flex items-start justify-center gap-20">
+        <div className="w-[70rem] flex sm:flex-row flex-col  sm:items-start justify-center gap-20">
           <div className="relative -top-25">
             <h1 className="font-semibold text-3xl lg:text-4xl lg:leading-[4rem] mb-6 text-center lg:text-left text-primaryBlue">
               IT Power Solutions
@@ -301,11 +301,11 @@ const Services = () => {
               </p>
             </div>
           </div>
-          <img src={photo11} alt="" className="h-[15rem]" />
+          <img src={photo11} alt="" className="h-[15rem] object-cover" />
         </div>
       </div>
       <div className="p-5 py-20 mb-10 flex justify-center gap-40 bg-primaryBlue/20">
-        <div className="w-[70rem] flex items-start justify-center gap-20">
+        <div className="w-[70rem] flex sm:flex-row flex-col sm:items-start justify-center gap-20">
           <img src={photo12} alt="" className="h-[15rem]" />
           <div className="relative -top-25">
             <h1 className="font-semibold text-3xl lg:text-4xl lg:leading-[4rem] mb-6 text-center lg:text-left text-primaryBlue">
