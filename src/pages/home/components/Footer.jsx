@@ -23,7 +23,7 @@ const Footer = () => {
       title: "APTECH KUBWA",
       link: "https://www.instagram.com/aptechkubwa/",
       address:
-        "48W4+HF7 Cok Best Mall, Kubwa, 901101, Federal Capital Territory",
+        "APTECH KUBWA COK BEST LIMITED, PLOT 658/659 ARAB ROAD, KUBWU, ABUJA",
       location: "https://maps.app.goo.gl/R7BmW9WP7xXRPE5p7",
       phone: "08169658898",
     },
