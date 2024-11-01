@@ -1,7 +1,6 @@
 import bgImage from "../../assets/images/image-1.png";
 // import photo from "../../assets/images/Rectangle 187.png";
 import Footer from "../home/components/Footer";
-import photo3 from "../../assets/images/Rectangle 186.png";
 import { MdOutlinePhonelinkSetup, MdOutlineShowChart } from "react-icons/md";
 import photo4 from "../../assets/images/33801-2048x2048.jpg";
 import photo5 from "../../assets/images/2650106-2048x1269.jpg";
@@ -330,32 +329,6 @@ const Services = () => {
           </div>
         </div>
       </div>
-
-      <div className="px-3">
-        <p className="text-4xl font-semibold text-center py-5 pt-10 sm:text-[2rem] text-[1.5rem]">
-          EVERY SECTOR & SERVICES <br />
-          <span className="text-blue-700">REQUIRE IT PROFESSIONALS</span>
-        </p>
-        <p className="font-semibold text-xl text-center">
-          As stated by the TopDev survey, in 2024, below are <br />
-          the 12 key focused IT sectors and services
-        </p>
-      </div>
-
-      <div className="flex justify-center sm:px-0 px-5">
-        <div className="flex flex-col lg:flex-row items-center justify-center gap-10 text-center mb-5 py-10 shadow-md px-10 my-10 w-[80rem] shadow-blue-300 rounded-md">
-          <img
-            src={photo3}
-            alt="Image illustrating IT training solutions"
-            className="w-1/2 lg:w-auto object-cover rounded-md"
-          />
-          <p className="text-lg font-bold">
-            To be the preferred brand for IT Training Solutions and services and
-            provide “value for money” to the customers.
-          </p>
-        </div>
-      </div>
-
       <Footer />
     </section>
   );
