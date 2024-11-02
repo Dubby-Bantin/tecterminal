@@ -127,7 +127,7 @@ const Services = () => {
       <div className="p-5 mb-10 flex items-start justify-center gap-40 ">
         <div className="w-[70rem] flex sm:flex-row flex-col items-center">
           <div className="relative -top-16">
-            <h1 className="font-semibold text-3xl lg:text-4xl lg:leading-[4rem] mb-6 text-center lg:text-left text-primaryBlue">
+            <h1 className="font-semibold text-3xl lg:text-4xl lg:leading-[4rem] mb-6 text-center lg:text-left text-primaryBlue my-10">
               Data Center Solution
             </h1>
             <div className="w-28 border border-primaryBlue mb-2"></div>
