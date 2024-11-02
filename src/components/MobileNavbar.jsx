@@ -3,7 +3,7 @@ import logo from "../assets/images/Asset 24.svg";
 // import ExploreBtn from "./buttons/ExploreBtn";
 import { FaBars } from "react-icons/fa";
 import { LiaTimesSolid } from "react-icons/lia";
-import { Link } from "react-scroll";
+import { Link } from "react-router-dom";
 
 const MobileNavbar = () => {
   const [menuActive, setMenuActive] = useState(false);
@@ -69,10 +69,10 @@ const MobileNavbar = () => {
             onClick={() => setMenuActive(false)}
             key={route.label}
             to={route.route}
-            href={route.route}
+            // href={route.route}
             smooth="true"
-            offset={10}
-            duration={500}
+            // offset={10}
+            // duration={500}
             className="text-gray-100 cursor-pointer"
           >
             {route.label}

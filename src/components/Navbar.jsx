@@ -2,7 +2,7 @@
 import logo from "../assets/images/Asset 24.svg";
 // import ExploreBtn from "./buttons/ExploreBtn";
 import MobileNavbar from "./MobileNavbar";
-import { Link } from "react-scroll";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const routes = [
@@ -36,11 +36,11 @@ const Navbar = () => {
           {routes.map((route) => (
             <Link
               key={route.label}
-              // to={route.route}
-              href={route.route}
+              to={route.route}
+              // href={route.route}
               smooth={true}
-              offset={10}
-              duration={500}
+              // offset={10}
+              // duration={500}
               className="text-gray-100 cursor-pointer"
             >
               {route.label}
