@@ -93,13 +93,13 @@ const Services = () => {
             </div>
           </div>
         </div>
-        <img src={photo4} alt="" className="h-[30rem]" />
+        <img src={photo4} alt="" className="h-[30rem] object-contain" />
       </div>
 
       <div className="bg-primaryBlue/10 p-5 py-20 mb-10">
         <div className="flex sm:flex-row flex-col sm:text-left text-center items-center justify-center gap-40">
           <div>
-            <img src={photo5} alt="" className="h-[15rem]" />
+            <img src={photo5} alt="" className="h-[15rem] object-contain" />
           </div>
           <div className="">
             <h1 className="font-semibold text-3xl lg:text-4xl lg:leading-[4rem] mb-6 text-center lg:text-left text-primaryBlue">
@@ -141,12 +141,12 @@ const Services = () => {
               client/server construction
             </p>
           </div>
-          <img src={photo6} alt="" className="h-[30rem]" />
+          <img src={photo6} alt="" className="h-[30rem] object-contain" />
         </div>
       </div>
       <div className="p-5 py-20 mb-10 flex justify-center gap-40 bg-primaryBlue/10">
         <div className="w-[70rem] flex items-start sm:flex-row flex-col justify-center gap-20">
-          <img src={photo7} alt="" className="h-[15rem]" />
+          <img src={photo7} alt="" className="h-[15rem]  object-contain" />
           <div className="relative -top-25">
             <h1 className="font-semibold text-3xl lg:text-4xl lg:leading-[4rem] mb-6 text-center lg:text-left text-primaryBlue">
               IP Surveillance
@@ -195,7 +195,7 @@ const Services = () => {
               on the actual usage of the customer.
             </p>
           </div>
-          <img src={photo8} alt="" className="h-[20rem] object-cover" />
+          <img src={photo8} alt="" className="h-[20rem] object-contain" />
         </div>
       </div>
       <div className="p-5 mb-40 flex items-start justify-center gap-40">
@@ -233,12 +233,12 @@ const Services = () => {
               </div>
             </div>
           </div>
-          <img src={photo9} alt="" className="h-[20rem]" />
+          <img src={photo9} alt="" className="h-[20rem] object-contain" />
         </div>
       </div>
       <div className="p-5 mb-40 flex items-start justify-center gap-40 bg-primaryBlue/10">
         <div className="w-[75rem] flex sm:flex-row flex-col items-center gap-10">
-          <img src={photo10} alt="" className="h-[20rem]" />
+          <img src={photo10} alt="" className="h-[20rem] object-contain" />
           <div className="relative">
             <h1 className="font-semibold text-3xl lg:text-4xl lg:leading-[4rem] mb-6 text-center lg:text-left text-primaryBlue">
               Business Ready Solutions
@@ -300,12 +300,12 @@ const Services = () => {
               </p>
             </div>
           </div>
-          <img src={photo11} alt="" className="h-[15rem] object-cover" />
+          <img src={photo11} alt="" className="h-[15rem] object-contain" />
         </div>
       </div>
       <div className="p-5 py-20 mb-10 flex justify-center gap-40 bg-primaryBlue/20">
         <div className="w-[70rem] flex sm:flex-row flex-col sm:items-start justify-center gap-20">
-          <img src={photo12} alt="" className="h-[15rem]" />
+          <img src={photo12} alt="" className="h-[15rem] object-contain" />
           <div className="relative -top-25">
             <h1 className="font-semibold text-3xl lg:text-4xl lg:leading-[4rem] mb-6 text-center lg:text-left text-primaryBlue">
               Corporate Training
