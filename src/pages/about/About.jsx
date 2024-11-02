@@ -20,10 +20,10 @@ const About = () => {
               "linear-gradient(90deg, rgba(10, 12, 46, 0.98) 41.06%, rgba(10, 12, 46, 0.3) 100%)",
           }}
         ></div>
-        <h1 className="absolute top-14 left-8 lg:left-14 font-bold text-white text-3xl lg:text-5xl lg:leading-[4rem]">
+        <h1 className="absolute sm:top-14 top-5 left-3 lg:left-14 font-bold text-white text-3xl lg:text-5xl lg:leading-[4rem]">
           ABOUT US
         </h1>
-        <p className="absolute sm:top-36 top-28 left-8 lg:left-14 text-white sm:w-1/2">
+        <p className="absolute sm:top-36 top-16 left-3 lg:left-14 text-white sm:w-1/2">
           Our Business is about Technology Delivery and Training. Techterminal
           is one the biggest franchises of Aptech Computer Education in Nigeria
           which serves as the training aim of Techterminal. having its centers
