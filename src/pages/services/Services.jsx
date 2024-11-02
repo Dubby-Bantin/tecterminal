@@ -22,7 +22,7 @@ import { CiBasketball } from "react-icons/ci";
 import { LiaKeySolid, LiaToolsSolid } from "react-icons/lia";
 const Services = () => {
   return (
-    <section>
+    <section className="overflow-hidden">
       <div className="relative w-full h-[30rem] bg-slate-400 mb-10">
         <img
           src={bgImage}

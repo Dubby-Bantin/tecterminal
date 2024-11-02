@@ -7,7 +7,7 @@ const About = () => {
   return (
     <section>
       {/* Header Section with Background Image */}
-      <div className="relative w-full h-[30rem] bg-slate-400 mb-10">
+      <div className="relative w-full h-[30rem] bg-slate-400 mb-10 overflow-hidden">
         <img
           src={bgImage}
           alt="Background"
@@ -20,7 +20,7 @@ const About = () => {
               "linear-gradient(90deg, rgba(10, 12, 46, 0.98) 41.06%, rgba(10, 12, 46, 0.3) 100%)",
           }}
         ></div>
-        <div data-aos="fade-right" data-aos-duration="1000" className="absolute sm:top-14 top-5 left-3 lg:left-14 w-full">
+        <div data-aos="fade-right" data-aos-duration="1000" className="absolute sm:top-14 top-5 left-3 lg:left-14 w-full ">
           <h1 className=" font-bold text-white text-3xl lg:text-5xl lg:leading-[4rem]">
             ABOUT US
           </h1>
