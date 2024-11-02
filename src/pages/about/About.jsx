@@ -20,22 +20,25 @@ const About = () => {
               "linear-gradient(90deg, rgba(10, 12, 46, 0.98) 41.06%, rgba(10, 12, 46, 0.3) 100%)",
           }}
         ></div>
-        <h1 className="absolute sm:top-14 top-5 left-3 lg:left-14 font-bold text-white text-3xl lg:text-5xl lg:leading-[4rem]">
-          ABOUT US
-        </h1>
-        <p className="absolute sm:top-36 top-16 left-3 lg:left-14 text-white sm:w-1/2">
-          Our Business is about Technology Delivery and Training. Techterminal
-          is one the biggest franchises of Aptech Computer Education in Nigeria
-          which serves as the training aim of Techterminal. having its centers
-          in different parts of Nigeria. Aptech is a Global Career Education
-          Company with a presence across 40+ countries in 5 continents, is
-          playing a key role in helping individuals, organizations and nations
-          adapt to the changing requirements of a knowledge-driven world. Aptech
-          commenced its business with IT education & training business in 1986
-          and has trained over 6.8 million students – globally. Aptech is listed
-          on the Bombay Stock Exchange (Code: 532475) and National Stock
-          Exchange (Code: APTECTH) based in Mumbai,India.
-        </p>
+        <div data-aos="fade-right" data-aos-duration="1000" className="absolute sm:top-14 top-5 left-3 lg:left-14 w-full">
+          <h1 className=" font-bold text-white text-3xl lg:text-5xl lg:leading-[4rem]">
+            ABOUT US
+          </h1>
+          <p className="text-white sm:w-1/2">
+            Our Business is about Technology Delivery and Training. Techterminal
+            is one the biggest franchises of Aptech Computer Education in
+            Nigeria which serves as the training aim of Techterminal. having its
+            centers in different parts of Nigeria. Aptech is a Global Career
+            Education Company with a presence across 40+ countries in 5
+            continents, is playing a key role in helping individuals,
+            organizations and nations adapt to the changing requirements of a
+            knowledge-driven world. Aptech commenced its business with IT
+            education & training business in 1986 and has trained over 6.8
+            million students – globally. Aptech is listed on the Bombay Stock
+            Exchange (Code: 532475) and National Stock Exchange (Code: APTECTH)
+            based in Mumbai,India.
+          </p>
+        </div>
       </div>
 
       <hr />

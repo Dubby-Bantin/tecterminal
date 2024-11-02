@@ -36,16 +36,24 @@ const Services = () => {
               "linear-gradient(90deg, rgba(10, 12, 46, 0.98) 41.06%, rgba(10, 12, 46, 0.3) 100%)",
           }}
         ></div>
-        <h1 className="absolute top-14 left-8 lg:left-14 font-bold text-white text-3xl lg:text-5xl lg:leading-[4rem]">
-          Services
-        </h1>
-        <p className="absolute top-36 left-8 lg:left-14 text-white lg:w-1/2">
-          To create the infrastructure that will deliver content to the right
-          place at the right time. • Systems integrated and security to protect
-          the integrity and privacy of shared content across networks • High-end
-          and mid-range enterprise server installation and configuration • Small
-          business and start-up computing needs and Data Center Infrastructures
-        </p>
+
+        <div
+          data-aos="fade-right"
+          data-aos-duration="1000"
+          className="absolute top-14 left-8 lg:left-14 "
+        >
+          <h1 className="font-bold text-white text-3xl lg:text-5xl lg:leading-[4rem]">
+            Services
+          </h1>
+          <p className="text-white lg:w-1/2">
+            To create the infrastructure that will deliver content to the right
+            place at the right time. • Systems integrated and security to
+            protect the integrity and privacy of shared content across networks
+            • High-end and mid-range enterprise server installation and
+            configuration • Small business and start-up computing needs and Data
+            Center Infrastructures
+          </p>
+        </div>
       </div>
       <div className="flex sm:flex-row flex-col items-center justify-center">
         <div className="p-5 sm:ml-16 sm:mb-20 sm:text-left text-center">

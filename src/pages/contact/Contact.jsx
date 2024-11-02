@@ -14,7 +14,11 @@ const Contact = () => {
           className="h-full w-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-[#0A0C2EFA] to-[#0A0C2E26]"></div>
-        <h1 className="absolute top-14 left-8 lg:left-14 font-bold text-white text-3xl lg:text-5xl lg:leading-[4rem]">
+        <h1
+          data-aos="fade-right"
+          data-aos-duration="1000"
+          className="absolute top-14 left-8 lg:left-14 font-bold text-white text-3xl lg:text-5xl lg:leading-[4rem]"
+        >
           CONTACT US
         </h1>
         <div className="flex items-center justify-center mt-16 lg:mt-0">
