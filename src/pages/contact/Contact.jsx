@@ -1,11 +1,8 @@
-// Contact Component
-import { FaCircleQuestion } from "react-icons/fa6";
 import bgImage from "../../assets/images/image-1.png";
 import Footer from "../home/components/Footer";
 import ContactForm from "./components/ContactForm";
 import SupportBox from "./components/SupportBox";
 import { RiQuestionnaireFill } from "react-icons/ri";
-import { FaUserAlt } from "react-icons/fa";
 
 const Contact = () => {
   return (
@@ -29,7 +26,7 @@ const Contact = () => {
         <h1 className="font-semibold text-3xl">
           WE ARE HERE FOR YOUR 24/7 SUPPORT
         </h1>
-        <div className="flex items-center justify-center gap-10 py-10">
+        <div className="flex flex-wrap items-center justify-center gap-10 py-10 sm:px-0 px-10">
           {/* <SupportBox
             title="Help Centre"
             body="Access detailed guides, tutorials, and help articles in 20+ languages to solve issues quickly."

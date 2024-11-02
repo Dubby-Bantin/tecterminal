@@ -23,7 +23,7 @@ const About = () => {
         <h1 className="absolute top-14 left-8 lg:left-14 font-bold text-white text-3xl lg:text-5xl lg:leading-[4rem]">
           ABOUT US
         </h1>
-        <p className="absolute top-36 left-8 lg:left-14 text-white w-1/2">
+        <p className="absolute sm:top-36 top-28 left-8 lg:left-14 text-white sm:w-1/2">
           Our Business is about Technology Delivery and Training. Techterminal
           is one the biggest franchises of Aptech Computer Education in Nigeria
           which serves as the training aim of Techterminal. having its centers
@@ -83,10 +83,10 @@ const About = () => {
               Africa.
             </p>
             <p>
-              &quot;I want to bridge the skills gap in West Africa by
-              providing comprehensive IT training that meets the demands of a
-              rapidly evolving industry. I believe that technology has the power
-              to unlock economic opportunities and transform lives.&quot;
+              &quot;I want to bridge the skills gap in West Africa by providing
+              comprehensive IT training that meets the demands of a rapidly
+              evolving industry. I believe that technology has the power to
+              unlock economic opportunities and transform lives.&quot;
             </p>
             <p>
               She noted that her focus lies on initiatives that support
