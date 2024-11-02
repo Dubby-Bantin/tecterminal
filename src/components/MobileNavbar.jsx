@@ -40,7 +40,7 @@ const MobileNavbar = () => {
   return (
     <div className="lg:hidden block sticky top-0 z-50">
       <div className="sticky bg-[#0A0C2E] top-0 flex justify-between items-center z-50 px-6 py-4 border-b-[1px] border-[#0d204e]">
-        <Link href="/">
+        <Link to="/">
           <img src={logo} alt="logo" className="w-[130px]" />
         </Link>
 
