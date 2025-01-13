@@ -18,16 +18,16 @@ const Navbar = () => {
       label: "Services",
       route: "services",
     },
-    // {
-    //     label: "More",
-    //     route: "business-solutions",
-    //     subRoutes:[]
-    // },
+    {
+        label: "Education",
+        route: "education",
+        subRoutes:[]
+    },
   ];
 
   return (
     <>
-      <header className="bg-[#0A0C2E] lg:flex hidden justify-between px-10 py-4 items-center top-0 sticky z-50">
+      <header className="top-0 z-50 sticky lg:flex justify-between items-center hidden bg-[#0A0C2E] px-10 py-4">
         <Link to="/">
           <img src={logo} alt="logo" className="w-[175px] h-full" />
         </Link>
